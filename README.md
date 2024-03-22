@@ -1,6 +1,6 @@
 # TSSE-BIM
- Example:
-    ```
+Example:
+  ```
     import numpy as np
     from sklearn import datasets
     from sklearn.tree import DecisionTreeClassifier
@@ -18,8 +18,8 @@
         y=y_train,
     )
     print('auc_prc_score: {}'.format(tsse.score(X_test, y_test)))
-    ```
-    """
+ ```
+
 If you need to modify the boundary undersampling weights, modify lines 133 through 145 of tsse.py.
 ![image](https://github.com/15399240803/TSSE-BIM/assets/63033258/204eb574-a5e5-4124-aca4-afa105eb7720)
 
